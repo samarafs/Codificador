@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="style.css">
+    <title>Decodificador</title>
+      
+</head>
+<body>
+    <header>
+        <img class="logo-alura" src="./imagens/logoAlura.png" alt="Logo da Alura">
+    </header>
+
+    <main>
+        <section>
+            <textarea class="text-area" cols="90" rows="23" placeholder="Digite seu texto"></textarea>
+
+            <div class= 'informacao'>
+                <img src="imagens/alert.png" height='8' witdh='3' alt="">
+                <p class='info'>Apenas letras minúsculas e sem acento.</p>
+            </div>
+                <button class="btn-encriptar"onclick="btnEncriptar()">Criptografar</button>
+                <button class="btn-desencriptar" onclick="btnDesencriptar()">Descriptografar</button>
+        </section>
+
+        <section>
+            
+                <textarea class="mensagem"  cols="46" rows="23" placeholder="Mensagem Não Encontrada"></textarea>            
+                <button class="btn-copiar" id="copiar" onclick="btnCopiar()">Copiar</button>
+            
+        </section>
+
+    </main>
+    <script src="/js/script.js"></script>
+
+</body>
+<footer class="container-fluid text-center bg-footer margin">
+    <p class="copyright">&#169; Desenvolvido por Samara Santos | 2023</p>
+       </footer>
+</html>
